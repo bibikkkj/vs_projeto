@@ -1,5 +1,5 @@
 class Aviao:
-    def __init__(self,modelo):
+   def __init__(self,modelo):
        self._modelo=modelo
        self.velocidade=0
 

@@ -1,13 +1,13 @@
 class Telefone:
    def __init__(self,modelo):
-        self._modelo=modelo
-        self.telefonema=0
+       self._modelo=modelo
+       self.telefonema=0
 
    def tocar(self):
-  print(f"{self._modelo} está tocando")
+       print(f"{self._modelo} está tocando")
 
    def chamada(self):
-  print(f"{self._modelo} está chamando")
+       print(f"{self._modelo} está chamando")
 
    def emitir (self):
-  print(f"{self._modelo} está emitindo a voz")
+       print(f"{self._modelo} está emitindo a voz")
