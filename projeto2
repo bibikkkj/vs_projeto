@@ -1,0 +1,13 @@
+class Freezer:
+   def __init__(self,modelo):
+        self._modelo=modelo
+        self.temperatura=-25
+
+   def gelar(self):
+  print(f"{self._modelo} está gelando")
+
+   def congelar(self):
+  print(f"{self._modelo} está congelando")
+    
+   def descongelar(self):
+  print(f"{self._modelo} está descongelando")

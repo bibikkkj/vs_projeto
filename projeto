@@ -1,0 +1,13 @@
+class Aviao:
+   def __init__(self,modelo):
+        self._modelo=modelo
+        self.velocidade=0
+
+   def acelerar(self):
+  print(f"{self._modelo} está acelerando")
+
+   def frear(self):
+  print(f"{self._modelo} está freando")
+  
+   def voar(self):
+  print(f"{self._modelo} está voando")
